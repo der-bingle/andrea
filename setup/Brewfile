@@ -1,0 +1,26 @@
+# Run using `brew bundle`. Installs a bunch of stuff at once vs running each command individually.
+
+# Taps add more repositories to the list of formulae that brew tracks, updates, and installs from.
+tap "homebrew/cask"
+tap "homebrew/cask-fonts"
+
+# ↓ Install Fish Shell
+brew "fish"  # Modern, user-friendly command line shell
+
+# ↓ Command Line Utilities
+brew "exa"    # Modern replacement for 'ls'
+brew "git"    # Replace the outdated macOS version with newest
+brew "trash"  # Move files or folder to the trash instead of deleting immediately
+brew "ccat"   # Cat replacement that displays content with syntax highlighting
+brew "httpie" # Modern HTTP client (a user-friendly `curl` replacement)
+brew "unzip"  # CLI File extraction
+
+# ↓ Monospace Typefaces
+cask "font-source-code-pro"  # High quality monospace fonts from Adobe
+cask "font-input"            # My favorite at the moment (https://input.fontbureau.com)
+
+
+# ↓ GUI Apps
+cask "visual-studio-code"    # Best simple code editor
+cask "iterm2"                # Modern replacement for Terminal app
+
